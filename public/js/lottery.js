@@ -194,14 +194,14 @@ var NowRunningLotteryCtrl = function($scope, $http,$interval,$timeout){
     $scope.started = false;
 
     $scope.startround = function(){
-        refreshTask = $interval(loadInfo, 200);
+        refreshTask = $interval(loadInfo, 100);
         $scope.started = true;
-        $timeout( stopTask,10000);
+        //$timeout( stopTask,10000);
         $scope.nowlottery.runround++;
     };
 
-    $scope.stopround = function(){
-
+    $scope.stopRound = function(){
+        stopTask();
     }
 };
 

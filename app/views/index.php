@@ -42,7 +42,7 @@
 </div>
 <div class="buttons" ng-if="nowlottery">
     <button class="btn btn-block btn-default" ng-click="startround()" ng-show="!started"><span class="glyphicon glyphicon-play"></span>开始</button>
-    <!--    <button class="btn btn-block btn-default" ng-show="started" ng-click="stopround()"><span class="glyphicon glyphicon-stop"></span>停止</button>-->
+        <button class="btn btn-block btn-default" ng-show="started" ng-click="stopRound()"><span class="glyphicon glyphicon-stop"></span>停止</button>
 </div>
 <style type="text/css">
     .buttons{
