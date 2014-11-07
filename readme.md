@@ -27,7 +27,7 @@
 #### 应用部署
 
 * 保证`app/storage` 目录具有可写权限
-* 创建`public/bower_resource`目录,用于下载安装bower管理的前端资源文件.
+* 创建`public/bower_resources`目录,用于下载安装bower管理的前端资源文件.
 * 目前参与抽奖者信息是直接编写在代码中，位于`app/controllers/LotteryController.php` line 46 行左右
 
 
